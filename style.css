@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#buttons button {
+  background-color: green; 
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#buttons button:hover {
+  background-color: blue;    /* color when mouse is over */
+}
+
+#results p {
+  font-size: 18px;
+}
